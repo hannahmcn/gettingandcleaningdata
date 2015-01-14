@@ -18,8 +18,8 @@ This script will output a data frame with the accelerometer data summarized, so 
 
 You can view *just* the output from this function (stored in the file clean.txt) without runnuing the code using this command:
 
-`> data <- read.table("clean.txt", header = TRUE)
-> view(data)`
+`> data <- read.table("clean.txt", header = TRUE)`
+`> view(data)`
 
 ## Process
 
