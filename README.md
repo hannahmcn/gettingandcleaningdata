@@ -14,7 +14,7 @@ The script "run_analysis.R" does this, and it can be run using the command:
  
 as long as the file "run_analysis.R" and the folders of the test and train data obtained from the accelerometer data set are in the current working directory.
  
-This script will output a data frame with the accelerometer data summarized, so that the only variables shown are the subject number (column heading "Sub"), the activity name (column heading "Activity"), the average of the average reading for the given subject and activity name (column heading "Mean"), and the average of the standard deviation for the given subject and activity name (column heading "St.Dev"). 
+This script will output a data frame with the given data summarized, so that only the average and standard deviation values are processed.  After filtering the unwanted data, the script replaces the numeric values for the activity with the given description for the corresponding activity.  Once this is done, each variable is averaged according to the subject and activity.
 
 You can view *just* the output from this function (stored in the file clean.txt) without runnuing the script itself using this command:
 
@@ -41,4 +41,4 @@ The process used to obtain this output is as follows:
 
 Each of these steps is also commented in the file "run_analysis.R" beneath the code that performs the process.  Please view the script if you wish to see the exact commands used to carry out this process. 
 
-This script allows for the data to be observed in a more effective manner since the hundreds of readings are reduced to a mean and standard deviation for each subject and activity.  Since both the mean and the standard deviation are given, there is enough information given so that further analysis can be done (i.e. creating distribution plots), without having to process thousands of lines of data.
+This script allows for the data to be observed in a more effective manner since the hundreds of readings are reduced to a mean and standard deviation of each variable for each subject and activity.  Since both the mean and the standard deviation are given, there is enough information given so that further analysis can be done (i.e. creating distribution plots), without having to process thousands of lines of data.
