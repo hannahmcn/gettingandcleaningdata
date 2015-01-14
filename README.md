@@ -30,12 +30,14 @@ The process used to obtain this output is as follows:
 2. Create new data frames called test & train using the x data 
 3. Add the Y and subject values to their corresponding tables (6 tables reduced to 2)
 4. Combine the test and train data frames by row (using rbind; 2 tables reduced to 1) 
-5. Create columns for the mean and standard deviation of all readings for each row
-6. Create a new data frame with the columns containing the activity, mean, standard deviation, and subject variables
-7. Change the numeric value for each activity to the given corresponding descriptive activity name
-8. Group the clean data frame first by the subject, then activity
-9. Use the summarize function to find the mean of the means and the mean of the standard deviations for each subject and activity
-10. Print out the result from step 9
+5. Read the given variable names as a header
+6. Create 2 new columns in this data frame, one indicating whether or not that variable is a mean or standard deviation, and the other removing all non-alphabet characters in the variable names
+7. Create a vector using the variable names that had punctuation removed and the words "Activity" and "Sub" (give variables descriptive names)
+8. Change the column names of the data to that vector
+9. Creates a new data frame containing only the variables that are a mean or standard deviation, as well as the activity and subject numbers
+10. Change the value for each activity to the given descriptive activity name
+11. Group the clean data frame first by the subject then activity
+12. Summarize each variable as a mean, based on the subject and activity, then print out the data frame
 
 Each of these steps is also commented in the file "run_analysis.R" beneath the code that performs the process.  Please view the script if you wish to see the exact commands used to carry out this process. 
 

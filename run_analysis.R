@@ -16,15 +16,21 @@ test$Sub <- sub1$V1
 ## add the Y and subject values to their corresponding tables
 data <- rbind(test, train)
 ## Combine the test and train data frames by row
-data$Mean <- apply(data, 1, mean)
-data$St.Dev <- apply(data, 1, sd)
-## Create columns for the mean and standard deviation,
-## calculating those values for all rows and adding them
-## to the corresponding column
-clean <- data[c("Activity", "Mean", "St.Dev", "Sub")]
-## Create a new data frame called clean with only the columns
-## containing the activity, mean, standard deviation, and
-## subject variables
+head <- read.table("features.txt")
+## Read the given variable names as a data frame
+head <-mutate(head, tf = grepl("mean", V2) | grepl("std",V2), nw = gsub("[^A-z]", "", V2))
+## Create 2 new columns in this data frame, one indicating whether
+## or not that variable is a mean or standard deviation, and the 
+## other removing all non-alphabet characters in the variable names
+header <- c(head$nw, "Activity", "Sub")
+## Create a vector using the variable names that had punctuation 
+## removed and the words "Activity" and "Sub"
+colnames(data) <- header
+## Change the column names of the data to that vector
+clean <- data[,c(head$tf,TRUE,TRUE)]
+## Creates a new data frame containing only the variables that
+## are a mean or standard deviation, as well as the activity
+## and subject numbers
 a <- clean$Activity
 a[a == 1] <- "Walking"
 a[a == 2] <- "Walking Upstairs"
@@ -37,8 +43,7 @@ clean$Activity <- a
 ## activity name
 clean2 <- group_by(clean, Sub, Activity)
 ## Group the clean data frame first by the subject then activity
-cleanfinal <- summarize(clean2, Mean = mean(Mean), St.Dev = mean(St.Dev))
-## Use the summarize function to find the mean of the means and standard
-## deviations for each subject and activity
+cleanfinal <- summarise_each(clean2, funs(mean))
+## Summarize each variable as a mean, based on the subject and activity
 print.data.frame(cleanfinal)
-## Print the result
+## Print the summarized data frame
