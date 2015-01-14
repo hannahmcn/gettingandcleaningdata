@@ -16,7 +16,7 @@ as long as the file "run_analysis.R" and the folders of the test and train data 
  
 This script will output a data frame with the accelerometer data summarized, so that the only variables shown are the subject number (column heading "Sub"), the activity name (column heading "Activity"), the average of the average reading for the given subject and activity name (column heading "Mean"), and the average of the standard deviation for the given subject and activity name (column heading "St.Dev"). 
 
-You can view *just* the output from this function (stored in the file clean.txt) without runnuing the code using this command:
+You can view *just* the output from this function (stored in the file clean.txt) without runnuing the script itself using this command:
 
 `> data <- read.table("clean.txt", header = TRUE)`
 
