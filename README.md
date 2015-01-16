@@ -37,8 +37,13 @@ The process used to obtain this output is as follows:
 9. Creates a new data frame containing only the variables that are a mean or standard deviation, as well as the activity and subject numbers
 10. Change the value for each activity to the given descriptive activity name
 11. Group the clean data frame first by the subject then activity
-12. Summarize each variable as a mean, based on the subject and activity, then print out the data frame
+12. Summarize each variable as a mean, based on the subject and activity
+13. Save the clean data to a file called "clean.txt"
 
 Each of these steps is also commented in the file "run_analysis.R" beneath the code that performs the process.  Please view the script if you wish to see the exact commands used to carry out this process. 
 
 This script allows for the data to be observed in a more effective manner since the hundreds of readings are reduced to a mean and standard deviation of each variable for each subject and activity.  Since both the mean and the standard deviation are given, there is enough information given so that further analysis can be done (i.e. creating distribution plots), without having to process thousands of lines of data.
+
+## Codebook
+
+In order to see what each variable represents in the "clean.txt" output file, please see the codebook for the full description of the variables. As described in the codebook, each of the variables is represented using a normalized, so the values are unitless. 

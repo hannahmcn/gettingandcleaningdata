@@ -1,0 +1,168 @@
+						CODEBOOK
+
+Sub
+      The numerical code for the subject
+Activity
+      The description of the activity performed
+
+The following variables are all means of values that were read from the cell phone data.
+The values for these variables were normalized, so they are unitless. Since these variables are normalized, they will have values ranging from -1 to 1.
+
+tBodyAccmeanX
+      The mean of the mean values of the body acceleration signal on the X axis in the frequency domain
+tBodyAccmeanY
+      The mean of the mean values of the body acceleration signal on the Y axis in the frequency domain
+tBodyAccmeanZ
+      The mean of the mean values of the body acceleration signal on the Z axis in the frequency domain
+tBodyAccstdX
+      The mean of the standard deviations of the body acceleration signal on the X axis in the frequency domain
+tBodyAccstdY
+      The mean of the standard deviations of the body acceleration signal on the Y axis in the frequency domain
+tBodyAccstdZ
+      The mean of the standard deviations of the body acceleration signal on the Z axis in the frequency domain
+tGravityAccmeanX
+      The mean of the mean values of the gravity acceleration signal on the X axis in the frequency domain
+tGravityAccmeanY
+      The mean of the mean values of the gravity acceleration signal on the Y axis in the frequency domain
+tGravityAccmeanZ
+      The mean of the mean values of the gravity acceleration signal on the Z axis in the frequency domain
+tGravityAccstdX
+      The mean of the standard deviations of the gravity acceleration signal on the X axis in the frequency domain
+tGravityAccstdY
+      The mean of the standard deviations of the gravity acceleration signal on the Y axis in the frequency domain
+tGravityAccstdZ
+      The mean of the standard deviations of the gravity acceleration signal on the Z axis in the frequency domain
+tBodyAccJerkmeanX
+      The mean of the mean values of the body acceleration signal (jerk signal) on the X axis in the frequency domain
+tBodyAccJerkmeanY
+      The mean of the mean values of the body acceleration signal (jerk signal) on the Y axis in the frequency domain
+tBodyAccJerkmeanZ
+      The mean of the mean values of the body acceleration signal (jerk signal) on the Z axis in the frequency domain
+tBodyAccJerkstdX
+      The mean of the standard deviations of the body acceleration signal (jerk signal) on the X axis in the frequency domain
+tBodyAccJerkstdY
+      The mean of the standard deviations of the body acceleration signal (jerk signal) on the Y axis in the frequency domain
+tBodyAccJerkstdZ
+      The mean of the standard deviations of the body acceleration signal (jerk signal) on the Z axis in the frequency domain
+tBodyGyromeanX
+      The mean of the mean values of the body gyroscope signal on the X axis in the frequency domain
+tBodyGyromeanY
+      The mean of the mean values of the body gyroscope signal on the Y axis in the frequency domain
+tBodyGyromeanZ
+      The mean of the mean values of the body gyroscope signal on the Z axis in the frequency domain
+tBodyGyrostdX
+      The mean of the standard deviations of the body gyroscope signal on the X axis in the frequency domain
+tBodyGyrostdY
+      The mean of the standard deviations of the body gyroscope signal on the Y axis in the frequency domain
+tBodyGyrostdZ
+      The mean of the standard deviations of the body gyroscope signal on the Z axis in the frequency domain
+tBodyGyroJerkmeanX
+      The mean of the mean values of the body gyroscope signal (jerk signal) on the X axis in the frequency domain
+tBodyGyroJerkmeanY
+      The mean of the mean values of the body gyroscope signal (jerk signal) on the Y axis in the frequency domain
+tBodyGyroJerkmeanZ
+      The mean of the mean values of the body gyroscope signal (jerk signal) on the Z axis in the frequency domain
+tBodyGyroJerkstdX
+      The mean of the standard deviations of the body gyroscope signal (jerk signal) on the X axis in the frequency domain
+tBodyGyroJerkstdY
+      The mean of the standard deviations of the body gyroscope signal (jerk signal) on the Y axis in the frequency domain
+tBodyGyroJerkstdZ
+      The mean of the standard deviations of the body gyroscope signal (jerk signal) on the Z axis in the frequency domain
+tBodyAccMagmean
+      The mean of the mean values of the body acceleration signal of the magnitude vector in the frequency domain
+tBodyAccMagstd
+      The mean of the standard deviations of the body acceleration signal of the magnitude vector in the frequency domain
+tGravityAccMagmean
+      The mean of the mean values of the gravity acceleration signal of the magnitude vector in the frequency domain
+tGravityAccMagstd
+      The mean of the standard deviations of the gravity acceleration signal of the magnitude vector in the frequency domain
+tBodyAccJerkMagmean
+      The mean of the mean values of the body acceleration signal (jerk signal) of the magnitude vector in the frequency domain
+tBodyAccJerkMagstd
+      The mean of the standard deviations of the body acceleration signal (jerk signal) of the magnitude vector in the frequency domain
+tBodyGyroMagmean
+      The mean of the mean values of the body gyroscope signal of the magnitude vector in the frequency domain
+tBodyGyroMagstd
+      The mean of the standard deviations of the body gyroscope signal of the magnitude vector in the frequency domain
+tBodyGyroJerkMagmean
+      The mean of the mean values of the body gyroscope signal (jerk signal) of the magnitude vector in the frequency domain
+tBodyGyroJerkMagstd
+      The mean of the standard deviations of the body gyroscope signal (jerk signal) of the magnitude vector in the frequency domain
+fBodyAccmeanX
+      The mean of the mean values of the body acceleration signal on the X axis in the time domain
+fBodyAccmeanY
+      The mean of the mean values of the body acceleration signal on the Y axis in the time domain
+fBodyAccmeanZ
+      The mean of the mean values of the body acceleration signal on the Z axis in the time domain
+fBodyAccstdX
+      The mean of the standard deviations of the body acceleration signal on the X axis in the frequency domain
+fBodyAccstdY
+      The mean of the standard deviations of the body acceleration signal on the Y axis in the frequency domain
+fBodyAccstdZ
+      The mean of the standard deviations of the body acceleration signal on the Z axis in the frequency domain
+fBodyAccmeanFreqX
+      The mean of the mean values of the body acceleration signal on the X axis in the time domain
+fBodyAccmeanFreqY
+      The mean of the mean values of the body acceleration signal on the Y axis in the time domain
+fBodyAccmeanFreqZ
+      The mean of the mean values of the body acceleration signal on the Z axis in the time domain
+fBodyAccJerkmeanX
+      The mean of the mean values of the body acceleration signal (jerk signal) on the X axis in the time domain
+fBodyAccJerkmeanY
+      The mean of the mean values of the body acceleration signal (jerk signal) on the Y axis in the time domain
+fBodyAccJerkmeanZ
+      The mean of the mean values of the body acceleration signal (jerk signal) on the Z axis in the time domain
+fBodyAccJerkstdX
+      The mean of the standard deviations of the body acceleration signal (jerk signal) on the X axis in the frequency domain
+fBodyAccJerkstdY
+      The mean of the standard deviations of the body acceleration signal (jerk signal) on the Y axis in the frequency domain
+fBodyAccJerkstdZ
+      The mean of the standard deviations of the body acceleration signal (jerk signal) on the Z axis in the frequency domain
+fBodyAccJerkmeanFreqX
+      The mean of the mean values of the body acceleration signal (jerk signal) on the X axis in the time domain
+fBodyAccJerkmeanFreqY
+      The mean of the mean values of the body acceleration signal (jerk signal) on the Y axis in the time domain
+fBodyAccJerkmeanFreqZ
+      The mean of the mean values of the body acceleration signal (jerk signal) on the Z axis in the time domain
+fBodyGyromeanX
+      The mean of the mean values of the body gyroscope signal on the X axis in the time domain
+fBodyGyromeanY
+      The mean of the mean values of the body gyroscope signal on the Y axis in the time domain
+fBodyGyromeanZ
+      The mean of the mean values of the body gyroscope signal on the Z axis in the time domain
+fBodyGyrostdX
+      The mean of the standard deviations of the body gyroscope signal on the X axis in the frequency domain
+fBodyGyrostdY
+      The mean of the standard deviations of the body gyroscope signal on the Y axis in the frequency domain
+fBodyGyrostdZ
+      The mean of the standard deviations of the body gyroscope signal on the Z axis in the frequency domain
+fBodyGyromeanFreqX
+      The mean of the mean values of the body gyroscope signal on the X axis in the time domain
+fBodyGyromeanFreqY
+      The mean of the mean values of the body gyroscope signal on the Y axis in the time domain
+fBodyGyromeanFreqZ
+      The mean of the mean values of the body gyroscope signal on the Z axis in the time domain
+fBodyAccMagmean
+      The mean of the mean values of the body acceleration signal of the magnitude vector in the time domain
+fBodyAccMagstd
+      The mean of the standard deviations of the body acceleration signal of the magnitude vector in the frequency domain
+fBodyAccMagmeanFreq
+      The mean of the mean values of the body acceleration signal of the magnitude vector in the time domain
+fBodyBodyAccJerkMagmean
+      The mean of the mean values of the body acceleration signal (jerk signal) of the magnitude vector in the time domain
+fBodyBodyAccJerkMagstd
+      The mean of the standard deviations of the body acceleration signal (jerk signal) of the magnitude vector in the frequency domain
+fBodyBodyAccJerkMagmeanFreq
+      The mean of the mean values of the body acceleration signal (jerk signal) of the magnitude vector in the time domain
+fBodyBodyGyroMagmean
+      The mean of the mean values of the body gyroscope signal of the magnitude vector in the time domain
+fBodyBodyGyroMagstd
+      The mean of the standard deviations of the body gyroscope signal of the magnitude vector in the frequency domain
+fBodyBodyGyroMagmeanFreq
+      The mean of the mean values of the body gyroscope signal of the magnitude vector in the time domain
+fBodyBodyGyroJerkMagmean
+      The mean of the mean values of the body gyroscope signal (jerk signal) of the magnitude vector in the time domain
+fBodyBodyGyroJerkMagstd
+      The mean of the standard deviations of the body gyroscope signal (jerk signal) of the magnitude vector in the frequency domain
+fBodyBodyGyroJerkMagmeanFreq
+      The mean of the mean values of the body gyroscope signal (jerk signal) of the magnitude vector in the time domain

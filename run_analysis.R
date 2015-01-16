@@ -45,5 +45,5 @@ clean2 <- group_by(clean, Sub, Activity)
 ## Group the clean data frame first by the subject then activity
 cleanfinal <- summarise_each(clean2, funs(mean))
 ## Summarize each variable as a mean, based on the subject and activity
-print.data.frame(cleanfinal)
-## Print the summarized data frame
+write.table(cleanfinal, file = "clean.txt")
+## Save the clean data to a file called "clean.txt"
