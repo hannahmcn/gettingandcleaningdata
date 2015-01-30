@@ -46,4 +46,4 @@ This script allows for the data to be observed in a more effective manner since 
 
 ## Codebook
 
-In order to see what each variable represents in the "clean.txt" output file, please see the codebook for the full description of the variables. As described in the codebook, each of the variables is represented using a normalized, so the values are unitless. 
+In order to see what each variable represents in the "clean.txt" output file, please see the codebook for the full description of the variables. As described in the codebook, each of the variables is normalized, so the values are unitless. 
